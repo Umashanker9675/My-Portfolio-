@@ -248,6 +248,9 @@ nav a {
   gap: 15px;
 }
 
+.bottom a{
+  text-decoration: none;
+}
 .btn {
   width: 12rem;
   height: 50px;
