@@ -132,7 +132,6 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  /* width: 90%; */
 }
 
 .contact-info h2 {
@@ -195,7 +194,6 @@ form {
   background: var(--disabled);
   padding: 1rem 1.5rem;
   border-radius: 10px;
-  /* width: 90%; */
 }
 
 fieldset {
@@ -204,8 +202,6 @@ fieldset {
   gap: 1rem;
   font-size: 1.1rem;
   border: none;
-  /* width: 90%; */
-  /* overflow: hidden; */
 }
 
 legend {
