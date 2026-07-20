@@ -245,8 +245,8 @@ const projectList = [
       "Current Weather App is a responsive web application developed using HTML, CSS, and JavaScript. It provides real-time weather information by integrating a weather API, allowing users to search for any city and view details such as temperature, Feels like,and weather conditions. The project focuses on API integration, responsive design, and creating a clean and user-friendly interface.",
     techStack: ["HTML", "CSS", "JavaScript"],
     image: "assets/projects/project1B.png",
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://umashanker9675.github.io/Current-Weather-App/",
+    githubLink: "https://github.com/Umashanker9675/Current-Weather-App",
   },
   {
     id: 2,
@@ -256,8 +256,8 @@ const projectList = [
       "Tic Tac Toe is an interactive web-based game developed using HTML, CSS, and JavaScript. It allows two players to play alternately on a 3×3 grid while automatically detecting winning combinations and draw situations. The project demonstrates DOM manipulation, game logic implementation, event handling, and responsive user interface design.",
     techStack: ["HTML", "CSS", "JavaScript"],
     image: "assets/projects/project2.png",
-    liveLink: "#",
-    githubLInk: "#",
+    liveLink: "https://umashanker9675.github.io/Tic-Tac-Toe-Game/",
+    githubLink: "https://github.com/Umashanker9675/Tic-Tac-Toe-Game",
   },
 ];
 
@@ -288,8 +288,8 @@ const renderProjects = (index) => {
             </div>
             <hr />
             <div class="links">
-              <a href=${projectContent?.liveLink}><i class="fas fa-long-arrow-alt-up"></i></a>
-              <a href=${projectContent?.githubLink}><i class="fab fa-github"></i></a>
+              <a href="${projectContent?.liveLink}"><i class="fas fa-long-arrow-alt-up"></i></a>
+              <a href="${projectContent?.githubLink}"><i class="fab fa-github"></i></a>
             </div>
           </div> 
            <div class="carousel">
